@@ -2,6 +2,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/* custome & reuseable code */
 .c_padding{
     margin-top: 150px;
     margin-bottom: 150px;
@@ -25,6 +26,7 @@ body{
     color: white;
     background: #FD6E0A;
 }
+/* header start */
 .header{
     height: 90vh;
     background: fixed;
@@ -58,6 +60,8 @@ body{
     font-weight: 400;
     line-height: 20px;
 }
+/* header end */
+/* failure start */
 .wrapper{
     display: flex;
 }
@@ -71,3 +75,74 @@ body{
 .failure_content{
     margin-left: 134px;
 }
+/* failure ends */
+/* my plan starts */
+.my_plan{
+    text-align: center;
+}
+.c_plans{
+    font-size: 40px;
+    text-align: center;
+}
+.lang_container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.lang_wrap{
+    width: 200px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.lang_title{}
+.lang_desc{}
+/* my plan ends */
+.call {
+    cursor: pointer;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 2;
+    color: #F15B22;
+    background-color: #fff;
+    border: 1px solid #F15B22;
+}
+.c_position{
+    position: relative;
+}
+.img_c {
+    position: absolute;
+    top: 60%;
+    left: 21.5%;
+    z-index: 1;
+}
+/* Footer start */
+footer{
+    color: #FFF;
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    padding: 130px 200px;
+    background: var(--Dark-01, #151414);
+}
+.footer_column{
+    margin-left: 238px;
+    width: 50%;
+}
+.social_links a{
+    margin-right: 25px;
+}
+.contact input[type="email"] {
+    margin-bottom: 15px;
+    padding: 18px 35px;
+    display: block;
+    width: 30%;
+    border: 0;
+    border-radius: 5px;
+    color: #F3F3F3;
+    background: #151414;
+}
+/* Footer end */
